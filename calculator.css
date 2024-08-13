@@ -1,0 +1,109 @@
+html,body{
+    height:100%;
+    width:100%;
+    background-color: #B8DBD9;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    
+    height:500px;
+    width:350px;
+    background-color: #262c26;
+    border-radius:20px;
+    padding:2px 2px 2px 2px;
+    display:flex;
+    justify-content: center;
+    align-items:normal;
+    border:2px solid black;
+    padding-top: 42px;
+    box-shadow:5px 5px 15px rgba(255, 255, 255,0.3);
+
+    
+}
+.screen{
+    display: flex;
+    justify-content: flex-end;
+    border-width: 10px;
+    border-color: #888a8f;
+    box-shadow: rgb(81, 80, 80);
+    padding: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    height: 70px;
+    box-shadow: 1.5px 2px 2px rgb(207, 203, 203);
+    width: 289px;
+    margin-left: 51px;
+    margin-right: 17px;
+  
+}
+.display{
+    width:322px;
+    height: 66px;
+    background-color: #78a978;
+    border: 2px solid black;
+    font-size:130%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    direction: ltr;
+    text-align: right;
+  
+}
+.box{
+    
+    height: 398px;
+    width: 353px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 66px;
+    margin-right: -5px;
+    display: flex;
+    justify-content: space-around;
+    row-gap: 5px;
+    column-gap: 2px;
+}
+
+
+form .button .blue{
+    background-color: rgb(4 4 156);
+    font-size: large;
+    font-style: normal;
+    font-family: sans-serif;
+}
+form .button input{
+    width: 58px;
+    height: 54px;
+    border: 2px solid black;
+    outline: 1px;
+    border-radius: 10px;
+    padding-top: 5px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #5a7282;
+    margin-left: -3px;
+    margin-right: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+
+    
+}
+
+
+form .button .longbutton{
+    width: 133px;
+}
+form .button .marginal{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+form .box .fade :hover{
+    background-color: #7497ae;
+}
